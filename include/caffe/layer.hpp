@@ -21,7 +21,7 @@ namespace caffe {
 
 /**
  * @brief An interface for the units of computation which can be composed into a
- *        Net.
+ *        Net. 是网络的基本单元，由此派生出了各种层类。修改这部分的人主要是研究特征表达方向的。
  *
  * Layer%s must implement a Forward function, in which they take their input
  * (bottom) Blob%s (if any) and compute their output Blob%s (if any).

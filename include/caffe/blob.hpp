@@ -16,7 +16,7 @@ namespace caffe {
 /**
  * @brief A wrapper around SyncedMemory holders serving as the basic
  *        computational unit through which Layer%s, Net%s, and Solver%s
- *        interact.
+ *        interact. 是基础的数据结构，是用来保存学习到的参数以及网络传输过程中产生数据的类。
  *
  * TODO(dox): more thorough description.
  */
